@@ -10,8 +10,9 @@ export default function Header() {
             <div className="logo">
               <Link to="/">Disliko</Link>
             </div>
-            <div className="header_links">
-              <Link to="/privacy-policy">Privacy & policy</Link>
+            <div className="header_links list_x">
+              <Link to="/privacy-policy">Privacy Policy</Link>
+              <Link to="https://akbarswe.uz">About me</Link>
             </div>
           </div>
         </header>
