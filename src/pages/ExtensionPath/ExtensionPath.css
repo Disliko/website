@@ -1,0 +1,16 @@
+@import url('../../style/utils/animations.css');
+
+.extension_path {
+  height: 100%;
+}
+
+.extension_path h1 {
+  text-align: center;
+}
+
+.extension_path_btn {
+  opacity: 0;
+  transform: translateY(100%);
+  animation: opaTo1 0.5s 0.5s ease forwards,
+    translateYTo0 0.5s 0.5s ease forwards;
+}

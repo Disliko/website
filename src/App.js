@@ -6,7 +6,12 @@ import Loading from './pages/Loading/Loading'
 import './style/App.css'
 
 const Home = React.lazy(() => import('./pages/Home/Home'))
-const PrivacyPolicy = React.lazy(() => import('./pages/PrivacyPolicy/PrivacyPolicy'))
+const PrivacyPolicy = React.lazy(() =>
+  import('./pages/PrivacyPolicy/PrivacyPolicy')
+)
+const ExtensionPath = React.lazy(() =>
+  import('./pages/ExtensionPath/ExtensionPath')
+)
 
 export default function App() {
   return (
@@ -17,6 +22,7 @@ export default function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="/extension" element={<ExtensionPath />} />
           </Routes>
         </Suspense>
         <Footer />
