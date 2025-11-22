@@ -55,14 +55,11 @@ export default function privacyPolicyContent() {
         service, you agree to be bound by the updated Privacy Policy.
       </p>
 
-      <h2>7. Contact Us</h2>
+      <h2>7. Contact Me</h2>
       <p>
         If you have any questions or concerns regarding this Privacy Policy,
-        please contact us at{' '}
-        <a href="mailto:akbarjonjorayev001@google.com">
-          akbarjonjorayev001@google.com
-        </a>
-        .
+        please contact me at{' '}
+        <a href="https://t.me/akbarswe_bot">t.me/akbarswe_bot</a>
       </p>
     </div>
   )
